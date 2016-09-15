@@ -167,7 +167,6 @@ class hr_employee(osv.osv):
         'city': fields.related('address_id', 'city', type='char', string='City'),
         'login': fields.related('user_id', 'login', type='char', string='Login', readonly=1),
         'last_login': fields.related('user_id', 'date', type='datetime', string='Latest Connection', readonly=1),
-        'workcenter_id': fields.many2one('mrp.workcenter','Work Center'),
     }
 
     # image: all image fields are base64 encoded and PIL-supported
