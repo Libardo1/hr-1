@@ -140,6 +140,7 @@ class hr_employee(osv.osv):
     _columns = {
         #we need a related field in order to be able to sort the employee by name
         'name_related': fields.related('resource_id', 'name', type='char', string='Name', readonly=True, store=True),
+        'code_empl': fields.char('Ma NV', required=True),
         'country_id': fields.many2one('res.country', 'Nationality (Country)'),
         'birthday': fields.date("Date of Birth"),
         'ssnid': fields.char('SSN No', help='Social Security Number'),

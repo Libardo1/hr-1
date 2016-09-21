@@ -235,7 +235,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_coach_id
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Coach"
-msgstr "huấn luyện viên"
+msgstr "Người hướng dẫn"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_code
@@ -1051,7 +1051,7 @@ msgstr ""
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
-msgstr "Người dùng liên quan"
+msgstr "Tài khoản người dùng"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users_employee_ids
