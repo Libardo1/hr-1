@@ -29,16 +29,26 @@
                         </div>
                         <field name="image" widget='image' class="oe_avatar" options='{"preview_image":"image_medium"}'/>
                         <div class="oe_title">
-                            <group col="2">
-                                <label for="name" class="oe_edit_only"/>
-                                <h1>
-                                    <field name="name" placeholder="Employee's Name"/>
-	                            </h1>
-	                            <label for="code_empl" class="oe_edit_only"/>
-	                            <h2>
-	                                <field name="code_empl" placeholder="Employee's Code"/>
-	                            </h2>
-                            </group>
+                            <table>
+                                <tr>
+                                    <td colspan="1">
+		                                <label for="name" class="oe_edit_only"/>
+		                            </td><td>  	                            
+			                            <h1>
+				                           <field name="name" placeholder="Employee's Name"/>
+					                    </h1>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td colspan="1">
+	                                    <label for="code_empl" class="oe_edit_only"/>
+		                            </td><td>
+			                            <h2>
+			                                <field name="code_empl" placeholder="Employee's Code"/>
+			                            </h2>
+		                            </td>
+		                        </tr>
+	                        </table>
                         </div>
                         <field name="category_ids" widget="many2many_tags" placeholder="e.g. Part Time" groups="base.group_hr_user"/>
                         <notebook>
